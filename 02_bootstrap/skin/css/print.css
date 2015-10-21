@@ -1,0 +1,328 @@
+body{
+	font-size: 10pt;
+	font-family: Georgia, serif;
+	width: auto;
+	height: auto;
+}
+*{
+	position: static;
+	float: none;
+	width: auto;
+	height: auto;
+}
+div{
+	position: static;
+	float: none;
+	width: auto;
+	height: auto;
+	background-image: none;
+}
+a,
+a img{
+	text-decoration: none;
+	border: none;
+}
+@page { size 21cm 29.7cm; margin: 2cm }
+@page :first {
+  margin-right:2cm;
+  margin-left: 2cm;
+}
+@page :right{
+  margin-right: 4cm;
+}
+
+@page :left {
+  margin-left: 4cm;
+}
+
+/*iframe.subWindow_fra,
+div.subWindow_co,
+div.subWindow_ti,
+div.subWindow_win,
+div.subWindow_over,
+#scSubWindow0_over,
+#scSubWindow0{
+	position: static !important ;
+	height:100% !important;
+	width:100% !important;
+	float: none !important;
+	background-color: transparent;
+}*/
+
+
+/******************/
+/*    STRUCT      */
+/******************/
+#tplIco{
+	display:none;
+}
+
+#titleRoot{
+	font-size: 16pt;
+	color: #686868;
+}
+#annotBtn{
+	display: none;
+}
+#tplCo{
+	overflow: visible;
+}
+
+#tplLft,
+#tplRgt,
+#tplBtmLeft,
+#tplMnuOpenedCo,
+#linkSp,
+#tplPrint{
+	display: none;
+}
+
+div.subWindow_co{
+	border: none;
+	height: auto;
+	width: auto;
+}
+.annotFieldFrm{
+	background-image: none;
+}
+
+/******************/
+/*      MENU      */
+/******************/
+.sw_menu_navList a,
+.sw_menu_navList a:visited,
+.sw_menu_navList a:active,
+.sw_tools_navList a,
+.sw_tools_navList a:visited,
+.sw_tools_navList a:active,
+.sw_child_navList a,
+.sw_child_navList a:visited,
+.sw_child_navList a:active{
+	color: inherit;
+	text-decoration: none;
+}	
+ul.sw_menu_navList{
+	list-style-image: none;
+	list-style-type: upper-alpha;
+	background: none;
+	font-size: 11pt;
+}
+ul.sw_menu_navList ul{
+	list-style-image: none;
+	list-style-type:decimal;
+	font-size: 10pt;
+}
+ul.sw_menu_navList ul ul{
+	list-style-image: none;
+	list-style-type:lower-alpha;
+	font-size: 9pt;
+	font-style: italic;
+}
+ul.sw_menu_navList .mnu_sel_yes span{
+	color : #4463A1;
+	font-weight: bold;
+}
+ul.sw_child_navList{
+	list-style-image: none;
+	list-style-type: square;
+}
+.sw_child_navList{
+	margin: 0cm 3cm;
+}
+
+
+/******************/
+/*    TEMPLATE    */
+/******************/
+
+
+/******************/
+/*      TEXT      */
+/******************/
+
+ul.op_txt_il,
+ul.op_sTxt_il,
+ul.op_clozeTxt_il,
+ul.op_qTxt_il{
+	list-style-type: disc;
+	list-style-image: none;
+}
+ul.op_txt_il ul,
+ul.op_sTxt_il ul,
+ul.op_clozeTxt_il ul,
+ul.op_qTxt_il ul{
+	list-style-type: square;
+	list-style-image: none;
+}
+ul.op_txt_il ul ul,
+ul.op_sTxt_il ul ul,
+ul.op_clozeTxt_il ul ul,
+ul.op_qTxt_il ul ul{
+	list-style-type: circle;
+	list-style-image: none;
+}
+.op_txt_p span,
+.op_labelTxt_p span,
+.op_clozeTxt_p span,
+.op_qTxt_ul_p span,
+.op_txt_p a,
+.op_labelTxt_p a,
+.op_clozeTxt_p a,
+.op_qTxt_ul_p a{
+	padding-right: 0px;
+	background-image: none;
+}
+a.op_txt_ul:after,
+a.op_sTxt_ul:after,
+a.op_labelTxt_ul:after,
+a.op_clozeTxt_ul:after,
+a.op_qTxt_ul:after,
+a.sfile_lnk:after{
+	content: " (" attr(href) ") ";
+	background-image: none;
+}
+a.op_txt_ul_docLnk span:after {
+	content: " (" attr(title) ") ";
+}
+a.op_txt_ul,
+a.op_sTxt_ul,
+a.op_labelTxt_ul,
+a.op_clozeTxt_ul,
+a.op_qTxt_ul,
+a.sfile_lnk{
+	background-image: none;
+	text-decoration: underline;
+}
+
+
+/******************/
+/*    GENERAL     */
+/******************/
+.mainContent_ti{
+	font-size: 20pt;
+	margin-top: 2cm;
+	margin-bottom: 1cm;
+}
+.practUcDesc_ti{
+	margin: 0.8cm 0cm;
+}
+.zoom,
+.ttInfo_a {
+	display: none;
+}
+
+
+
+/******************/
+/*    BINARIES    */
+/******************/
+#linkSp img:after,
+.cc-button img:after{
+	content: " (" attr(alt) ") ";
+}
+sfile_avi_resVideo,
+sfile_mov_resVideo,
+sfile_flv_resVideo,
+sfile_mpeg_resVideo,
+object.resFlash,
+object.embedObj{
+	display: block;
+	width: 300px;
+	height: 100px;
+	border: 2px solid gray;
+	background-color: silver;
+	font-weight: bold;
+	color: #CA0000;
+}
+/*object.resVideo embed,
+object.resFlash embed,
+object.embedObj embed{
+	display: none;
+}*/
+
+
+/******************/
+/*       PB       */
+/******************/
+.basic, 
+.legal, 
+.complement, 
+.method, 
+.syntax, 
+.simulation,
+.remind, 
+.def,
+.example, 
+.remark, 
+.advice, 
+.warning,
+.obj{
+}
+.blocks_co{
+	padding: 0.6cm 0.6cm;
+}
+.basic_ti, 
+.legal_ti, 
+.complement_ti, 
+.method_ti, 
+.syntax_ti, 
+.simulation_ti,
+.remind_ti, 
+.def_ti, 
+.example_ti, 
+.remark_ti, 
+.advice_ti, 
+.warning_ti,
+.obj_ti{
+	min-height: 35px;
+	padding: 0 0;
+	background-image: none;
+	text-align: left;
+	color: #4463A1;
+}
+.warning_ti{
+	color: #FFCFCC;
+}
+.pbTi{
+	position: static;
+	top: auto;
+	left: auto;
+	overflow: auto;
+	width:auto;
+	height:auto;
+}
+
+
+/******************/
+/*      REF      */
+/******************/
+#tplFooter{
+	display:none;
+}
+/******************/
+/*      EVAL      */
+/******************/
+/*
+#evalPlayerBar{
+	display:none;
+}*/
+#evalPlayerPrint{
+	display:none;
+}
+.evalCounterSeen, 
+.evalCounterTotal,
+.evalCounterOver{
+	display: inline;
+	height: auto;
+	width: auto;
+	position:relative;
+}
+.nextEval,
+.prevEval{
+	display: none;
+}
+.mtTable,
+.olTableSol,
+#evalPlayerCo table{
+	width: 15cm;
+}

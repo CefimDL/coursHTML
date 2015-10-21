@@ -1,0 +1,79 @@
+/* Outline Tools CSS */
+
+#mnuScroll{
+	width: 233px;
+}
+
+ul.sw_tools_navList{
+	list-style: none;
+	margin: 20px 0px;
+	padding: 0px 0px 0px 5px;
+}
+ul.sw_tools_navList li{
+	margin: 0px 0px 2px 0px;
+	padding: 0px 0px 0px 0px;
+}
+ul.sw_tools_navList .mnu_sel_yes,
+ul.sw_tools_navList .mnu_sel_no{
+	text-decoration: none;
+	display: block;
+	min-height: 20px;
+	color: black;
+	padding-left: 27px;
+}
+ul.sw_tools_navList .mnu_sel_yes span,
+ul.sw_tools_navList .mnu_sel_no span{
+	display: block;
+	padding: 2px 0px;
+}
+ul.sw_tools_navList a:hover{
+	color: #a056b0;
+}
+ul.sw_tools_navList .mnu_sel_yes span{
+	display: block;
+	background-color: #fff;
+	color: #666;
+	padding-left: 5px;
+	margin-left: -5px;
+
+}
+ul.sw_tools_navList .mnu_synth {
+	background: url(../img/cefim/16px/list2.png) no-repeat center left;
+}
+ul.sw_tools_navList .mnu_bib {
+	background: url(../img/cefim/16px/books.png) no-repeat center left;
+}
+ul.sw_tools_navList .mnu_glos {
+	background: url(../img/cefim/16px/bookmarks.png) no-repeat center left;
+}
+ul.sw_tools_navList .mnu_refs {
+	background: url(../img/cefim/16px/tags.png) no-repeat center left;
+}
+ul.sw_tools_navList .mnu_acr {
+	background: url(../img/cefim/16px/scissors.png) no-repeat center left;
+}
+ul.sw_tools_navList .mnu_index {
+	background: url(../img/cefim/16px/list.png) no-repeat center left;
+}
+ul.sw_tools_navList .mnu_credits {
+	background: url(../img/cefim/16px/users2.png) no-repeat center left;
+}
+ul.sw_tools_navList span.mnu_cursor {
+	display: none;
+}
+
+/* === SMALL & TOUCH screens ================================================ */
+div.tplFra_touch ul.sw_tools_navList{
+	font-size:11pt;
+}
+div.tplFra_touch ul.sw_tools_navList li{
+	padding:1px 0;
+	min-height:25px;
+}
+/* TABLET - portrait */
+@media only screen and (orientation:portrait){
+	div.tplFra_small .tplMainMnu_open #mnuScroll {
+		display:none;
+	}
+}
+

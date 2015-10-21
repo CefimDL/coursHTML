@@ -1,0 +1,85 @@
+@import url(http://fonts.googleapis.com/css?family=Signika:400,300,700,600);
+
+/* General HTML CSS */
+html{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	font: 12px Tahoma, Arial, Sans-serif;
+	background : url(../img/cefim/grid_pattern.jpg);
+	text-rendering : optimizeLegibility;
+	font-smoothing : antialiased;
+	-webkit-font-smoothing : antialiased;
+	
+}
+
+table{
+	padding: 0px;
+	margin: 0px;
+	border-collapse: collapse; 
+}
+
+h1, h2, h3, h4, h5, h6{
+	padding:0px;
+	margin:0px;
+	font-weight: 400;
+	font-family : Signika;
+}
+h1{
+	font-size: 1.6em;
+	color: #4463A1;
+}
+h2{
+	font-size:1.6em;
+	color:#4463A1;
+}
+h3{
+	font-size: 1.8em;
+	color: #EB7D1E;
+	margin : 0.5em 0
+}
+h4, h5, h6{
+	font-size: 1.3em;
+	color: #EB7D1E;
+}
+p{
+	text-align: justify;
+	font-size: 1.2em;
+	margin: 0.2em 1em 0.7em 1em;
+}
+
+.hidden{
+	position: absolute;
+	top:-5000px;
+	left:-5000px;
+	overflow: hidden;
+	width:1px;
+	height:1px;
+	color:black
+}
+
+#tplRgt .hidden, #tplLft .hidden, #tplBtm .hidden, #tplTop .hidden{
+	color:white
+}
+
+#tplCoMarginW{
+margin : 0px !important;
+}
+
+#tplCoFlexTop{
+display : none;
+}
+
+a, a *{
+	-webkit-transition: all 200ms ease-in-out;
+		-moz-transition: all 200ms ease-in-out;
+        -ms-transition: all 200ms ease-in-out;
+        -o-transition: all 200ms ease-in-out;
+		transition: all 200ms ease-in-out;
+
+}

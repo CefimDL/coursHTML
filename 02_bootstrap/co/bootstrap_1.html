@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+ <head>
+  <title>Bootstrap - Qu'est ce que bootstrap&nbsp;?</title>
+  <meta charset="UTF-8">
+  <meta name="author" content="E. Jallier ">
+  <meta name="keywords" content>
+  <meta name="date" content="09/2015">
+  <link rel="stylesheet" type="text/css" href="../wdgt/scCodeMgr/scCodeMgr.css">
+  <link rel="stylesheet" type="text/css" href="../wdgt/scImgMgr/scImgMgr.css">
+  <script type="text/JavaScript">
+/*0*/ var scServices = {};
+/*1*/ scServices["scLoad"] = {loadFromRoot:function(pUrl){window.location.href="../"+pUrl;}, getPathFromRoot:function(pPath){return "../"+pPath;}, getUrlFromRoot:function(pHref){if(!this.fRootOffset) this.fRootOffset = scCoLib.hrefBase().length-19; return pHref.substring(this.fRootOffset);},getRootUrl:function(){if(!this.fRootUrl) this.fRootUrl = scCoLib.hrefBase().substring(0,scCoLib.hrefBase().length-20); return this.fRootUrl;}};
+</script>
+  <!--[if lt IE 9]><script type="text/JavaScript" src="../wdgt/html5shiv/html5shiv.js"></script><![endif]--><script type="text/JavaScript" src="../lib-sm/scCoLib.js"></script>
+  <script type="text/JavaScript" src="../lib-sm/scPaLib.js"></script>
+  <script type="text/JavaScript" src="../lib-sm/scSiLib.js"></script>
+  <script type="text/JavaScript" src="../lib-sm/scTiLib.js"></script>
+  <script type="text/JavaScript" src="../svc/scorm.js"></script>
+  <script type="text/JavaScript" src="../lib-sm/scMapMgr.js"></script>
+  <script type="text/JavaScript" src="../lib-sm/scDynUiMgr.js"></script>
+  <script type="text/JavaScript" src="../lib-sm/scTooltipMgr.js"></script>
+  <script type="text/JavaScript" src="../lib-sm/scDragMgr.js"></script>
+  <script type="text/JavaScript" src="../lib-sma/scAssmntMgr.js"></script>
+  <script type="text/JavaScript" src="../svc/scSearch/scSearch.js"></script>
+  <script type="text/JavaScript" src="../wdgt/tplMgr/tplMgr.js"></script>
+  <script type="text/JavaScript" src="../wdgt/dynSizes/dynSizes.js"></script>
+  <script type="text/JavaScript" src="../wdgt/outMgr/outMgr.js"></script>
+  <script type="text/JavaScript" src="../wdgt/scCodeMgr/scCodeMgr.js"></script>
+  <script type="text/JavaScript" src="../wdgt/searchMgr/searchMgr.js"></script>
+  <script type="text/JavaScript" src="../wdgt/scImgMgr/scImgMgr.js"></script>
+  <script type="text/JavaScript">
+/*0*/ try{var vCurrDir = scCoLib.hrefBase().substring(0,scCoLib.hrefBase().lastIndexOf("/")+1); if(window.opener && window.opener.location.href.lastIndexOf(vCurrDir, vCurrDir.length)==0 && window.opener.scServices) scServices = window.opener.scServices; else if(window.parent && window.parent.location.href.lastIndexOf(vCurrDir, vCurrDir.length)==0 && window.parent.scServices) scServices = window.parent.scServices;}catch(e){}
+scCodeMgr.registerCode("des:div.code");
+
+scImgMgr.registerGallery("des:div.galFra");
+
+scImgMgr.registerZoom("des:a.imgZoom",{toolbar:1,mag:1,titlePath:"par:/nsi:/chi:span.capTi"});
+
+</script>
+  <meta name="generator" content="SCENARI 4.1.10 / Opale 3.5.014 - http://scenari-platform.org/opale">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="revision" content="2015-10-21 19:34">
+  <link rel="start" href="dl21_bootstrap.html" title="Bootstrap">
+  <script type="text/JavaScript">
+outMgr.declareOutline("bootstrap.txt");
+	</script>
+  <link type="text/css" rel="stylesheet" href="../skin/css/html.css" media="all">
+  <link type="text/css" rel="stylesheet" href="../skin/css/struct_page.css" media="screen">
+  <link type="text/css" rel="stylesheet" href="../skin/css/buttons.css" media="screen">
+  <link type="text/css" rel="stylesheet" href="../skin/css/mnu_page.css" media="screen">
+  <link type="text/css" rel="stylesheet" href="../skin/css/mnu_child.css" media="screen">
+  <link type="text/css" rel="stylesheet" href="../skin/css/transf.css" media="all">
+  <link type="text/css" rel="stylesheet" href="../skin/css/indexes.css">
+  <link type="text/css" rel="stylesheet" href="../skin/css/assmnt.css">
+  <link type="text/css" rel="stylesheet" href="../skin/css/assmnt_train.css">
+  <link type="text/css" rel="stylesheet" href="../skin/css/sub_windows.css" media="screen">
+  <link type="text/css" rel="stylesheet" href="../skin/css/search.css" media="screen">
+  <!--[if IE]><link type="text/css" rel="stylesheet" href="../skin/css/ie.css" media="screen"/><![endif]-->
+  <!--[if lt IE 7]><link type="text/css" rel="stylesheet" href="../skin/css/ie6_page.css" media="screen"/><link type="text/css" rel="stylesheet" href="../skin/css/ie6_sub_windows.css" media="all"/><![endif]--><link type="text/css" rel="stylesheet" href="../skin/css/print.css" media="print">
+ </head>
+ <body>
+  <div id="tplFra"><div id="tplTop"><ul id="accessibility"><li class="tplWaiContent"><a class="waiBtn contentWaiBtn" href="#content" title="aller au contenu"><span>contenu</span></a></li><li class="tplWaiMenu"><a class="waiBtn menuWaiBtn" href="#menu" title="aller au menu"><span>menu</span></a></li><li class="tplWaiNav"><a class="waiBtn navWaiBtn" href="#navigation" title="aller &agrave; la navigation"><span>navigation</span></a></li><li class="tplWaiFoot"><a class="waiBtn footWaiBtn" href="#footer" title="aller au pied de page"><span>pied de page</span></a></li></ul><noscript>Attention, votre navigateur ne supporte pas le javascript ou celui-ci a &eacute;t&eacute; d&eacute;sactiv&eacute;. Certaines fonctionnalit&eacute;s de ce module sont restreintes.</noscript><h1 id="titleRoot"><span>Bootstrap</span></h1></div><div id="tplLft"><hr class="hidden"><a id="tools" class="accessAnc" name="tools" href="#tools"></a><strong class="hidden">Mode&nbsp;: </strong><ul class="mnuMode"><li><span class="playBtnSel"><img alt="Cours" src="../skin/img/btn/playSel.png" class="btnImg"><span class="btnLbl">Cours</span></span></li></ul></div><div id="tplMain" class="tplMainMnu_open"><div id="tplMnu"><hr class="hidden"><a id="menu" class="accessAnc" name="menu" href="#menu"></a><strong class="hidden">Menu&nbsp;: </strong><div class="mnuBlock"></div><div class="mnuFra"><ul class="mnu mnu_static  mnu_sch_no"><li class="mnu_sel_no mnu_l mnu_dpt_0 mnu_intro"><div class="mnuLbl mnu_sel_no mnu_l mnu_dpt_0 mnu_intro mnu_sch_no" id="bootstrap.html"><a href="bootstrap.html" target="_self" class="mnu_i mnu_lnk"><span class="mnu_sch"><span><span class="mnu_cursor"></span>Introduction</span></span></a></div></li><li class="mnu_sel_yes mnu_l mnu_dpt_0 mnu_expUc"><div class="mnuLbl mnu_sel_yes mnu_l mnu_dpt_0 mnu_expUc mnu_sch_no" id="bootstrap_1.html"><span class="mnu_i"><span class="mnu_sch"><span><span class="mnu_cursor"></span>Qu'est ce que bootstrap&nbsp;?</span></span></span></div></li><li class="mnu_sel_no mnu_l mnu_dpt_0 mnu_expUc"><div class="mnuLbl mnu_sel_no mnu_l mnu_dpt_0 mnu_expUc mnu_sch_no" id="bootstrap_2.html"><a href="bootstrap_2.html" target="_self" class="mnu_i mnu_lnk"><span class="mnu_sch"><span><span class="mnu_cursor"></span>Documentation</span></span></a></div></li></ul><script type="text/javascript">scServices.totalPages = 3;</script></div><div id="tplIco"><div class="decoExpUc "></div></div></div><div id="tplCo"><div class="scroller"><hr class="hidden"><a id="content" class="accessAnc" name="content" href="#content"></a><strong class="hidden">Contenu&nbsp;: </strong><div id="tplCoMarginW" style><div id="tplCoFlexTop"></div><div class="mainContent "><h2 class="mainContent_ti"><span>Qu'est ce que bootstrap&nbsp;?</span></h2><div class="mainContent_co "><div class="def"><h3 class="def_ti blocks_ti"><span class="def_ti_co pb_ti_co"><span class="pbTi">D&eacute;finition</span><span class="hidden"> : </span><span class="pbTiAuthor">Wikipedia</span></span></h3><div class="def_co blocks_co"><div><p class="op_txt_p">Twitter Bootstrap est une collection d'outils utile &agrave; la cr&eacute;ation de sites web et applications web. C'est un ensemble qui contient des codes HTML et CSS, des formulaires, boutons, outils de navigation et autres &eacute;l&eacute;ments interactifs, ainsi que des extensions JavaScript en option. </p></div></div></div><div class="info "><div class="info_co "><div><p class="op_txt_p">Dans les faits, mettre en place un site web avec bootstrap s'av&egrave;re facile. Il suffit de disposer des bons fichiers, tout se passe ensuite par l'utilisation des classes css appropri&eacute;es directement dans le code HTML.</p></div></div></div><div class="info "><h3 class="info_ti"><span>Pour ...</span></h3><div class="info_co "><div><p class="op_txt_p">Bootstrap est un environnement tr&egrave;s utilis&eacute;, notamment dans le th&egrave;me par d&eacute;faut de prestashop.</p></div><div><p class="op_txt_p">Liste de sites r&eacute;alis&eacute;s avec bootstrap&nbsp;:</p><p class="op_txt_p"><a class="op_txt_ul" target="_blank" title="http://expo.getbootstrap.com/ (nouvelle fen&ecirc;tre)" href="http://expo.getbootstrap.com/">http://expo.getbootstrap.com/</a></p></div><div><p class="op_txt_p">Il permet de facilement cr&eacute;er un site web qui aura une apparence professionnelle.</p></div><div><p class="op_txt_p">Par ailleurs il est possible de t&eacute;l&eacute;charger des th&egrave;me alternatifs, qui permettent de personnaliser cette apparence.</p></div></div></div><div class="info "><h3 class="info_ti"><span>... et contre</span></h3><div class="info_co "><div><p class="op_txt_p">Le principal d&eacute;faut de bootstrap, est que le code HTML que l'on doit taper peut vite se retrouver tr&egrave;s verbeux.</p></div><div><p class="op_txt_p">Ensuite, Framework veut dire &quot;Cadre de Travail&quot;. C'est &agrave; dire que l'on travail dans un cadre, et que si on veut un r&eacute;sultat tr&egrave;s original, il faut en sortir.</p></div></div></div></div></div></div><div id="tplCoSpacer"></div></div></div></div><div id="tplRgt"><hr class="hidden"><a id="navigation" class="accessAnc" name="navigation" href="#navigation"></a><strong class="hidden">Navigation&nbsp;: </strong><a href="bootstrap.html" target="_self" class="navBtn prevBtn btnPrv" title="Pr&eacute;c&eacute;dent (Introduction)"><span><img alt="Pr&eacute;c&eacute;dent" src="../skin/img/btn/prev.png" onmouseover="this.src='../skin/img/btn/prevOver.png';" onmouseout="this.src='../skin/img/btn/prev.png';" class="btnImg"><span class="btnLbl">Pr&eacute;c&eacute;dent</span></span></a><span class="hidden"> | </span><a href="bootstrap_2.html" target="_self" class="navBtn nextBtn btnNxt" title="Suivant (Documentation)"><span><img alt="Suivant" src="../skin/img/btn/next.png" onmouseover="this.src='../skin/img/btn/nextOver.png';" onmouseout="this.src='../skin/img/btn/next.png';" class="btnImg"><span class="btnLbl">Suivant</span></span></a></div><div id="tplBtm"><hr class="hidden"><a id="footer" class="accessAnc" name="footer" href="#footer"></a><span id="tplBtmLeft"><a class="homeBtn " target="_self" href="dl21_bootstrap.html" title="Accueil"><span><img alt="Accueil" src="../skin/img/btn/home.png" onmouseover="this.src='../skin/img/btn/homeOver.png';" onmouseout="this.src='../skin/img/btn/home.png';" class="btnImg"><span class="btnLbl">Accueil</span></span></a><span class="hidden"> | </span><a href="#" onclick="window.print();return false;" class="printBtn" title="Imprimer la page"><span><img alt="Imprimer" src="../skin/img/btn/print.png" onmouseover="this.src='../skin/img/btn/printOver.png';" onmouseout="this.src='../skin/img/btn/print.png';" class="btnImg"><span class="btnLbl">Imprimer</span></span></a></span><span id="tplBtmIn"><span class="hidden"> | </span><span class="hidden"> | </span><a id="linkSp" target="_blank" href="http://scenari-platform.org" title="R&eacute;alis&eacute; avec Scenari (nouvelle fen&ecirc;tre)"><span><img alt="R&eacute;alis&eacute; avec Scenari (nouvelle fen&ecirc;tre)" src="../skin/img/struct/scBtn.png"></span></a></span></div></div>
+  <script type="text/JavaScript" src="../skin/js/skin.js"></script>
+  <script type="text/javascript">tplMgr.init();new scSiRuleAutoMarginW("tplCoMarginW","ide:tplCo",true,510,100);new scSiRuleFlexH("tplCoFlexTop","ide:tplCo",true,.3);scCodeMgr.init();outMgr.init("ide:tplMain","ide:tplMnu","ide:tplMnu/des:ul.mnu");scImgMgr.init();</script>
+ </body>
+</html>

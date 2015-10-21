@@ -1,0 +1,81 @@
+/* Outline Child CSS */
+ul.sw_child_navList {
+	margin: 0em;
+	padding: 0em;
+	list-style: none;
+}
+
+ul.sw_child_navList li a, ul.sw_child_navList li span{
+	font-size: 1.3em;
+	text-decoration: none;
+	min-height: 35px;
+	display: inline-block;
+	padding-left: 30px;
+	padding-top:5px;
+	cursor: hand;
+	cursor: pointer;
+	color:black;
+	opacity : .6;
+}
+
+
+ul.sw_child_navList li a:hover {
+	opacity :1
+}
+ul.sw_child_navList li a:hover span{
+	color: #EB7D1E;
+	opacity :1
+
+}
+ul.sw_child_navList a {
+	background: url(../img/cefim/32px/file3.png) no-repeat center left ;
+}
+ul.sw_child_navList .mnu_ueDiv {
+	background-image: url(../img/cefim/32px/file3.png);
+}
+ul.sw_child_navList .mnu_assmntUa {
+	background-image: url(../img/cefim/32px/file2.png);
+}
+ul.sw_child_navList .mnu_courseUa {
+	background-image: url(../img/cefim/32px/file.png);
+}
+ul.sw_child_navList .mnu_intro {
+	background-image: url(../img/cefim/32px/info.png);
+}
+ul.sw_child_navList .mnu_conclu {
+	background-image: url(../img/cefim/32px/info.png);
+}
+ul.sw_child_navList .mnu_expUc {
+	background-image: url(../img/cefim/32px/file4.png);
+}
+ul.sw_child_navList .mnu_practUc {
+	background-image: url(../img/cefim/32px/pencil.png);
+}
+ul.sw_child_navList .mnu_trainUc {
+	background-image: url(../img/cefim/32px/pencil.png);
+}
+ul.sw_child_navList .mnu_coQuiz {
+	background-image: url(../img/cefim/32px/pencil.png);
+}
+ul.sw_child_navList .mnu_quest {
+	background-image: url(../img/cefim/32px/question.png);
+}
+
+.childs{
+	border:2px solid #EB7D1E;
+	width:80%;
+	padding-top:15px;
+	padding-bottom:15px;
+	margin:auto;
+	font-family : Signika;
+}
+
+.childs_co{
+	margin-left:-17px;
+	padding-top:7px;
+	background : white;
+}
+
+.childs_co_co{
+	padding-bottom:5px
+}
